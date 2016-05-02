@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Check For Understanding</title>
+  </head>
+  <body>
+    <header>
+      <h1>C4U</h1>
+    </header>
+    <form action="" method="post">
+    <div>
+        <label for="question">Question</label>
+        <textarea id="question"></textarea>
+    </div>
+    <div class="button">
+        <button onclick="store()" type="submit">Ask your question!</button>
+        <script type="text/javascript">
+            function store(){
+              var questionInput = document.getElementById("question");
+              var questionArr = [];
+              localStorage.setItem("question", questionInput.value);
+              //add questions to an array
+            }
+        </script>
+    </div>
+</form>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
+
+
+
+<!-- next step: save data from form in localStorage  -->
+
+
+
+<!-- original -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Check For Understanding</title>
+  </head>
+  <body>
+    <header>
+      <h1>C4U</h1>
+    </header>
+    <form action="" method="post">
+    <div>
+        <label for="question">Question</label>
+        <textarea id="question"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Ask your question!</button>
+    </div>
+</form>
+  </body>
+</html> -->
