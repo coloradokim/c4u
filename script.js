@@ -1,4 +1,6 @@
-// var questionInput = document.getElementById("question");
-// localStorage.setItem("question", questionInput.value);
-//
-console.log(localStorage);
+function store(){
+  document.getElementById("store").addEventListener("click", function (){
+        var question = document.getElementById("question").value ;
+        localStorage.setItem("currentQuestion", question) ;
+    } , false);
+}
