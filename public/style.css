@@ -1,4 +1,6 @@
-/* -------- =Structure -------*/
+body {
+	background: #E4DFDA;
+}
 .wrapper {
 	width: 980px;
 	margin: auto;
@@ -6,5 +8,9 @@
 }
 
 #newQuestion {
-	background-color: pink;
+	background-color: #C1666B;
+}
+
+#gatherStudentData {
+	background-color: #D4B483;
 }
