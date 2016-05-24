@@ -1,16 +1,5 @@
-function store(){
-  document.getElementById("store").addEventListener("click", function (){
-    var question = document.getElementById("question").value;
-    localStorage.setItem("currentQuestion", question);
-  } , false);
-}
-
-console.log(localStorage);
-
-
-
-
-
-
-// on return, submit button
-// goal: { currentQuestion: [] } or previous questions 
+function askQuestion(){
+  var question = document.getElementById('question').value;
+    console.log(question);
+    document.getElementById("newQuestion").innerHTML = question;
+};
