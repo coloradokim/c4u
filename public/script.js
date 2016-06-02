@@ -4,7 +4,7 @@ function askQuestion(){
     document.getElementById("newQuestion").innerHTML = question;
     document.getElementById("waitTime").innerHTML = "WAIT FOR IT...";
 
-    var intervalID = window.setInterval(provideWaitTime, 5000);
+    var intervalID = window.setInterval(provideWaitTime, 4500);
     function provideWaitTime() {
       document.getElementById("gatherStudentData").innerHTML = responseTypes[Math.floor(Math.random() * responseTypes.length)];
       clearInterval(intervalID)

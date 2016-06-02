@@ -1,31 +1,46 @@
-@import url(https://fonts.googleapis.com/css?family=Vollkorn);
-
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
+.mdl-textfield {
+  width: 100%;
+}
 
-/*body {
-	background: #E4DFDA;
-	font-family: 'Vollkorn', serif;
-}*/
+.mdl-grid {
+  width: 67%;
+  margin: 0 auto;
+}
 
-.wrapper {
-	width: 980px;
-	margin: auto;
+.mdl-button {
+  float: right;
+  margin-right: 1rem;
 }
 
 #newQuestion {
-	background-color: #C1666B;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+	background-color: rgba(33, 150, 243, .85);
+  height: 400px;
+}
+
+#waitTime {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: grey;
+  height: 400px;
 }
 
 #gatherStudentData {
-	background-color: #D4B483;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: yellow;
+  text-align: center;
 }
