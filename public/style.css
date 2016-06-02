@@ -12,15 +12,14 @@ html {
 }
 
 
-body {
+/*body {
 	background: #E4DFDA;
 	font-family: 'Vollkorn', serif;
-}
+}*/
 
 .wrapper {
 	width: 980px;
 	margin: auto;
-	background: #396E9F;
 }
 
 #newQuestion {
